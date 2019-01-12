@@ -1,0 +1,281 @@
+// CSIO RADIO MOD v0.1
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"common"
+		{
+			"hotkey"	"0"
+			"title"	"Standard Radio"
+			"timeout"	"5"
+
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"Yes"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"No"
+					"cmd"	"negative"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"3"
+					"label"	"Help"
+					"cmd"	"needbackup"
+				}
+				
+				"hold"
+				{
+					"hotkey"	"4"
+					"label"	"Hold"
+					"cmd"	"holdpos"
+				}
+				
+				"go"
+				{
+					"hotkey"	"5"
+					"label"	"Go"
+					"cmd"	"go"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label"	"Thanks"
+					"cmd"	"thanks"
+				}
+
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label"	"Cheer"
+					"cmd"	"cheer"
+				}	
+			}
+		}
+
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"Select Language"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"English"
+				{
+					"hotkey"	"1"
+					"label"	"English"
+					"cmd"	"exec csio/lang/EN.cfg"
+				}
+				
+				"Russian"
+				{
+					"hotkey"	"2"
+					"label"	"Russian"
+					"cmd"	"exec csio/lang/RU.cfg"
+				}
+				
+				"French"
+				{
+					"hotkey"	"3"
+					"label"	"French"
+					"cmd"	"exec csio/lang/FR.cfg"
+				}
+				
+				"German"
+				{
+					"hotkey"	"4"
+					"label"	"German"
+					"cmd"	"exec csio/lang/DE.cfg"
+				}
+				
+				"Portuguese"
+				{
+					"hotkey"	"5"
+					"label"	"Portuguese"
+					"cmd"	"exec csio/lang/PT.cfg"
+				}
+				
+				"Polish"
+				{
+					"hotkey"	"6"
+					"label"	"Polish"
+					"cmd"	"exec csio/lang/PL.cfg"
+				}
+				
+				"Turkish"
+				{
+					"hotkey"	"7"
+					"label"	"Turkish"
+					"cmd"	"exec csio/lang/TR.cfg"
+				}
+				
+				"Spanish"
+				{
+					"hotkey"	"8"
+					"label"	"Spanish"
+					"cmd"	"exec csio/lang/ES.cfg"
+				}
+			}
+		}
+		
+		"group"
+		{
+			"hotkey"	"2"
+			"title"	"CSIO Translations"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label" "Hello"
+					"cmd"	"csioradio1"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label" "Sorry"
+					"cmd"	"csioradio2"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"3"
+					"label" "Stop Baiting"
+					"cmd"	"csioradio3"
+				}
+				
+				"hold"
+				{
+					"hotkey"	"4"
+					"label" "Shhhh"
+					"cmd"	"csioradio4"
+				}
+				
+				"go"
+				{
+					"hotkey"	"5"
+					"label" "Info?"
+					"cmd"	"csioradio5"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label" "Eco!"
+					"cmd"	"csioradio6"
+				}
+
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label" "Drop gun"
+					"cmd"	"csioradio7"
+				}	
+
+				"cheer"
+				{
+					"hotkey"	"8"
+					"label" "Push!"
+					"cmd"	"csioradio8"
+				}	
+
+				"cheer"
+				{
+					"hotkey"	"9"
+					"label" "Stop Pushing!"
+					"cmd"	"csioradio9"
+				}	
+			}
+		}
+		
+		"report"
+		{
+			"hotkey"	"3"
+			"title"	"CSIO Translations"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label" "Hello"
+					"cmd"	"csioradio1"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label" "Sorry"
+					"cmd"	"csioradio2"
+				}
+				
+				"needbackup"
+				{
+					"hotkey"	"3"
+					"label" "Stop Baiting"
+					"cmd"	"csioradio3"
+				}
+				
+				"hold"
+				{
+					"hotkey"	"4"
+					"label" "Shhhh"
+					"cmd"	"csioradio4"
+				}
+				
+				"go"
+				{
+					"hotkey"	"5"
+					"label" "Info?"
+					"cmd"	"csioradio5"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label" "Eco!"
+					"cmd"	"csioradio6"
+				}
+
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label" "Drop gun"
+					"cmd"	"csioradio7"
+				}	
+
+				"cheer"
+				{
+					"hotkey"	"8"
+					"label" "Push!"
+					"cmd"	"csioradio8"
+				}	
+
+				"cheer"
+				{
+					"hotkey"	"9"
+					"label" "Stop Pushing!"
+					"cmd"	"csioradio9"
+				}	
+			}
+		}
+	}
+}
