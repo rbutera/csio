@@ -1,7 +1,8 @@
 # CSIO
 
 > International Offensive: a Radio Modification for Counter-Strike: Global Offensive
-> International Offensive (CSIO) is a free, open-source tweak for Counter-Strike: Global Offensive that prevents toxicity and encourages teamplay by providing translations for some common phrases using the in-game radio system.
+
+International Offensive (CSIO) is a free, open-source tweak for Counter-Strike: Global Offensive that prevents toxicity and encourages teamplay by providing translations for some common phrases using the in-game radio system.
 
 [Homepage and Installation Instructions](http://csio.now.sh)
 
