@@ -12,11 +12,7 @@
     "gatsby-plugin-react-helmet": "^2.0.8",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby",
-    "bulma",
-    "storybook"
-  ],
+  "keywords": ["gatsby", "bulma", "storybook"],
   "license": "MIT",
   "scripts": {
     "preinstall": "node ./preinstall-check.js",
@@ -26,7 +22,8 @@
     "format": "prettier --write 'src/**/*.js'",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "lint": "eslint src",
-    "test": "jest"
+    "test": "jest",
+    "now-build": "npm run build"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^3.4.3",
@@ -58,11 +55,7 @@
   "babel": {
     "env": {
       "test": {
-        "presets": [
-          "es2015",
-          "react",
-          "stage-0"
-        ]
+        "presets": ["es2015", "react", "stage-0"]
       }
     }
   },
@@ -71,12 +64,7 @@
       "\\.(css|scss)$": "identity-obj-proxy"
     },
     "testRegex": "(\\.(test|spec))\\.(jsx|js)$",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/.cache/"
-    ],
-    "modulePaths": [
-      "src"
-    ]
+    "testPathIgnorePatterns": ["/node_modules/", "/.cache/"],
+    "modulePaths": ["src"]
   }
 }
